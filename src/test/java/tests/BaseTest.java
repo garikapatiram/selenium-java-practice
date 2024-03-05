@@ -24,7 +24,7 @@ public class BaseTest {
 		
 		ChromeOptions options = new ChromeOptions();
 	//	options.addArguments("incognito");
-		options.addArguments("headless");
+	//	options.addArguments("headless");
 	    driver = new ChromeDriver(options);
 	
 		driver.get("https://www.automationtesting.co.uk/");

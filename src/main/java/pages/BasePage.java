@@ -51,6 +51,12 @@ public class BasePage {
 		return new ButtonsPage(driver);
 	}
 	
+	public ContactFormPage ContactForm() {
+		
+		driver.findElement(By.xpath("//*[@id=\"menu\"]/ul/li[7]/a")).click();
+		return new ContactFormPage(driver);
+	}
+	
 	/*
 	 * private void clickLink(String linkText) {
 	 * 
