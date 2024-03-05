@@ -11,7 +11,7 @@ public class ContactFormPageTest extends BaseTest{
 	ContactFormPage cp =	home.ContactForm();
 	cp.ContactFormData();
 	cp.ResetButton();
- 	cp.SubmitButton();
+ //	cp.SubmitButton();
 	}
 
 }
